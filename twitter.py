@@ -17,10 +17,10 @@ imgWidth="1280"
 imgHeight="720"
 imgName="tweetPic.jpg"
 
-apiKey = '2CWE0YIjWYKU5gkJ4jYyMZ8zs'
-apiSecret = 'utjw6Bvt6bgfPBPIUglgEd785yUU0r4eTpH8pdtCvo8ORYsQXD'
-accessToken = '734473293323849728-ThiTzVYLYXv4JM8y7xRi2lapLUVMJGZ'
-accessTokenSecret = 'fLSMqm6IpLetpPXaJhxMKQjdidgbKaSXlMpw5BfyyjwVw'
+apiKey = ''
+apiSecret = ''
+accessToken = ''
+accessTokenSecret = ''
 
 snapCommand = "raspistill -w" + imgWidth + " -h" + imgHeight + " -o" + imgName
 
