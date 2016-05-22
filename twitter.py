@@ -3,9 +3,9 @@ import subprocess
 import RPi.GPIO as GPIO
 from twython import Twython
 
-SYSTEM_READY = 0
-SYSTEM_RUNNING = 0
-BUTTON = 0
+SYSTEM_READY = 12
+SYSTEM_RUNNING = 18
+BUTTON = 8
 
 GPIO.setup(SYSTEM_READY, GPIO.OUT)
 GPIO.setup(SYSTEM_RUNNING, GPIO.OUT)
